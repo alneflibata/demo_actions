@@ -21,5 +21,5 @@ jobs: # 执行的工作
         run: | # 安装依赖包
           pip install -r ./requirements.txt 
 
-      - name: Run main.py
-        run: python main.py # 执行py文件    依据自己代码要运行的py情况而定
+      - name: Run TAPasswd.py
+        run: python TAPasswd.py # 执行py文件    依据自己代码要运行的py情况而定
